@@ -25,7 +25,7 @@ int main() {
     printf("Nome da cidade: ");
     scanf("%s", nomeCidade1);
     printf("População: ");
-    scanf("%lu", &populacao1); // Modificação aqui
+    scanf("%lu", &populacao1);
     printf("Área (em km²): ");
     scanf("%f", &area1);
     printf("PIB (em bilhões de reais): ");
@@ -75,7 +75,7 @@ int main() {
     printf("Estado: %c\n", estado2);
     printf("Código da carta %c02\n: ", estado2);
     printf("Nome da Cidade: %s\n", nomeCidade2);
-    printf("População: %lu\n", populacao2); // Modificação aqui
+    printf("População: %lu\n", populacao2);
     printf("Área: %.2f km²\n", area2);
     printf("PIB: %.2f bilhões de reais\n", pib2);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos2);
