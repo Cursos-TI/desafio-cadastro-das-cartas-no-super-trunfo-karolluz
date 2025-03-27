@@ -7,7 +7,7 @@ int imprimirMovimentoTorre() {
     printf("Movimento da Torre:\n");
     
     // Laço de repetição para imprimir o movimento 5 vezes
-    for (int i = 0; i < 5; i++) {
+    for (int casa = 0; casa < 5; casa++) {
         // Imprimir direção do movimento
         printf("Direita\n");
     }
@@ -20,18 +20,18 @@ int imprimirMovimentoTorre() {
 // Retorna um valor inteiro (0) para indicar sucesso
 int imprimirMovimentoBispo() {
     // Imprimir título do movimento do Bispo
-    printf("\nMovimento do Bispo:\n");
+    printf("\n\nMovimento do Bispo:\n");
     
     // Variável para controlar o laço de repetição
-    int j = 0;
+    int casa = 0;
     
     // Laço de repetição para imprimir o movimento 5 vezes
-    while (j < 5) {
+    while (casa < 5) {
         // Imprimir direção do movimento
         printf("Cima, Direita\n");
         
         // Incrementar variável de controle
-        j++;
+        casa++;
     }
     
     // Retornar 0 para indicar sucesso
@@ -42,10 +42,10 @@ int imprimirMovimentoBispo() {
 // Retorna um valor inteiro (0) para indicar sucesso
 int imprimirMovimentoRainha() {
     // Imprimir título do movimento da Rainha
-    printf("\nMovimento da Rainha:\n");
+    printf("\n\nMovimento da Rainha:\n");
     
     // Variável para controlar o laço de repetição
-    int k = 0;
+    int casa = 0;
     
     // Laço de repetição para imprimir o movimento 8 vezes
     do {
@@ -53,8 +53,8 @@ int imprimirMovimentoRainha() {
         printf("Esquerda\n");
         
         // Incrementar variável de controle
-        k++;
-    } while (k < 8);
+        casa++;
+    } while (casa < 8);
     
     // Retornar 0 para indicar sucesso
     return 0;
