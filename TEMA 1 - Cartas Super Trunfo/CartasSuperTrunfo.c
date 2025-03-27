@@ -7,7 +7,7 @@ int main() {
     char estado1, estado2;
     char codigoCarta1[5], codigoCarta2[5];
     char nomeCidade1[50], nomeCidade2[50];
-    unsigned long int populacao1, populacao2; // Modificação aqui
+    unsigned long int populacao1, populacao2;
     float area1, area2;
     float pib1, pib2;
     int pontosTuristicos1, pontosTuristicos2;
@@ -42,7 +42,7 @@ int main() {
     printf("Estado: %c\n", estado1);
     printf("Código da carta %c01\n: ", estado1);
     printf("Nome da Cidade: %s\n", nomeCidade1);
-    printf("População: %lu\n", populacao1); // Modificação aqui
+    printf("População: %lu\n", populacao1);
     printf("Área: %.2f km²\n", area1);
     printf("PIB: %.2f bilhões de reais\n", pib1);
     printf("Número de Pontos Turísticos: %d\n", pontosTuristicos1);
@@ -58,7 +58,7 @@ int main() {
     printf("Nome da cidade: ");
     scanf("%s", nomeCidade2);
     printf("População: ");
-    scanf("%lu", &populacao2); // Modificação aqui
+    scanf("%lu", &populacao2);
     printf("Área (em km²): ");
     scanf("%f", &area2);
     printf("PIB (em bilhões de reais): ");
